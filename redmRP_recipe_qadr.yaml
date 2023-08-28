@@ -72,7 +72,7 @@ tasks:
 
 # db_1.sql update
   - action: replace_string
-    file: ./resources/[redem]/redem_roleplay/server/sql/db_1.sql
+    file: ./resources/[redem]/redem_roleplay/redemrp.sql
     search: 'DROP DATABASE IF EXISTS `redemrp`;'
     replace: '' 
 
